@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "ESNext",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "typeRoots": [
+    "./node_modules/phaser/types"
+  ],
+  "types": [
+    "Phaser"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
